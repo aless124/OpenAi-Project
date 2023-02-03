@@ -7,7 +7,6 @@ load_dotenv()
 
 openai.api_key = os.getenv('API_KEY')    # You have to put your api key here
 
-print(os.getenv('API_KEY'))
 # list engines
 engines = openai.Engine.list()
 
@@ -27,7 +26,7 @@ if choice==1:
                                            prompt=prompt,
                                            temperature=0.4,
                                            max_tokens=124,
-                                           top_p=1,
+                                           top_p=1, 
                                            frequency_penalty=0,
                                            presence_penalty=0,
                                            echo=True)
