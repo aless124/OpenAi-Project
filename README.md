@@ -16,6 +16,10 @@ Get your api key and put it instead of 'API_KEY' line 8
 
 This second script create a discord bot and make it able to respond to question ask by user or even create image based on a request
 
+## prerequisite
+
+Install the discord library for python
+
 
 ## ToDo
 
