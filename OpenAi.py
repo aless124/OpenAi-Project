@@ -13,7 +13,6 @@ engines = openai.Engine.list()
 
 
 # create a completion
-choice = 0
 choice = int(input("Voulez vous une réponse à une question 1 ou générer une image 2 ?   "))
 
 while choice != 1 and choice !=2:
@@ -25,7 +24,7 @@ if choice==1:
     completion = openai.Completion.create(engine="text-davinci-003",
                                            prompt=prompt,
                                            temperature=0.4,
-                                           max_tokens=124,
+                                           max_tokens=180,
                                            top_p=1, 
                                            frequency_penalty=0,
                                            presence_penalty=0,
