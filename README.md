@@ -19,7 +19,9 @@ This second script create a discord bot and make it able to respond to question 
 ## prerequisite
 
 Install the discord library for python
+
 Put you discord bot token instead of "DISCORD_TOKEN"
+
 Get your api key on OpenAi and put it instead of 'API_KEY' 
 
 ## ToDo
