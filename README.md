@@ -9,7 +9,7 @@ With that you will be able to ask a question and get a response without using Ch
 
 ## prerequisite
 
-Get your api key and put it instead of 'API_KEY' line 8
+Get your api key on OpenAi and put it instead of 'API_KEY' line 8
 
 
 # OpenAiXdiscordbot.py
@@ -19,7 +19,8 @@ This second script create a discord bot and make it able to respond to question 
 ## prerequisite
 
 Install the discord library for python
-
+Put you discord bot token instead of "DISCORD_TOKEN"
+Get your api key on OpenAi and put it instead of 'API_KEY' 
 
 ## ToDo
 
