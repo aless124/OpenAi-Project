@@ -13,7 +13,7 @@ engines = openai.Engine.list()
 
 
 # create a completion
-choice = int(input("Voulez vous une réponse à une question 1 ou générer une image 2 ?   "))
+choice = int(input("Voulez vous une réponse à une question (1) ou générer une image (2) ?   "))
 
 while choice != 1 and choice !=2:
     print("Wront input , choose between 1 ( image generation) and 2 ( text prompt )")

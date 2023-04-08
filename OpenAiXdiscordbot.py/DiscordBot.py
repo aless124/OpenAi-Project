@@ -43,7 +43,7 @@ async def on_message(message):
                 completion = openai.Completion.create(engine="text-davinci-003",
                                                          prompt=prompt,
                                                          temperature=0.4,
-                                                         max_tokens=180,
+                                                         max_tokens=300,
                                                          top_p=1, 
                                                          frequency_penalty=0,
                                                          presence_penalty=0,
